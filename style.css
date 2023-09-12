@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(img/The-Walking-Dead-©-Netflix\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 32px 16px 32px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    header{
+        height: 50px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 32px;
+    }
+    header a{
+        color: #fff;
+        font-size: 1.rem;
+
+        
+    }
+
+
+
+main{
+    
+    flex-grow: 1;
+
+}
+
+.filme-container{
+  
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao{
+    background: blueviolet;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.descricao p {
+    flex-grow: 1;
+    width: 530px;
+    font-size: 1.rem;
+    color: #fff;
+}   
+
+.classificacao{
+    background: rgb(48, 68, 224);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+
+}
+
+.classificacao p {
+    
+    width: 530px;
+    font-size: 1.0rem;
+    color: #fff;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+   
+  
+}
+
+.logo{
+    background: green;
+    width: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    
+    height: 50px;
+
+}
